@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<id>yourname</id>
+	<name>yourname</name>
+	<description>your description</description>
+	<workingdirectory>%BASE%\</workingdirectory>
+	<logpath>%BASE%\logs</logpath>
+	<logmode>rotate</logmode>
+
+	<executable>java</executable>
+	<arguments>-jar </arguments>
+</service>
