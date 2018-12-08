@@ -1,5 +1,5 @@
 @echo off
-%~dp0service.exe start
-echo The service current state:
-%~dp0service.exe status
+%~dp0.\exe\service.exe start
+echo start successfull, current state:
+%~dp0.\exe\service.exe status
 pause

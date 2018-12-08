@@ -1,0 +1,5 @@
+1.install.bat 安装程序
+2.restart.bat 重启程序
+3.start.bat 启动程序
+4.stop.bat 停止程序
+5.uninstall.bat 卸载程序

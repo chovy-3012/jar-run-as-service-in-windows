@@ -1,5 +1,5 @@
 @echo off
-%~dp0sg-1.0-SNAPSHOT.exe restart
-echo The sg-1.0-SNAPSHOT service current state:
-%~dp0sg-1.0-SNAPSHOT.exe status
+%~dp0.\exe\service.exe restart
+echo restart successfull,service current state:
+%~dp0.\exe\service.exe status
 pause

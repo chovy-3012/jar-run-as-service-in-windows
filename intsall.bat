@@ -1,5 +1,5 @@
 @echo off
-%~dp0service.exe install
-echo The sg-1.0-SNAPSHOT service current state:
-%~dp0service.exe status
+%~dp0.\exe\service.exe install
+echo install successfull,service current state:
+%~dp0.\exe\service.exe status
 pause
